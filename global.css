@@ -1,0 +1,61 @@
+section {
+  padding-bottom: 60px;
+}
+
+a {
+  text-decoration: underline;
+  color: #bcbac2;
+  font-size: 0.95rem;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 85%;
+  }
+
+  .header-container-wrapper {
+    padding-inline: 0.3rem;
+  }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COLOR LIBRARY */
+:root {
+  --WHITE-1: #ffffff;
+  --BTN-RED: #e50914;
+  --IMG-LOAD: #91090f;
+  --IMG-BACK-UP-CLR: #2d2d2d;
+}
+
+button {
+  color: var(--WHITE-1);
+  padding: 0.75rem 1.2rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+}
